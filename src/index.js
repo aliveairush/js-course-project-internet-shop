@@ -1,13 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import * as ReactDOMClient from 'react-dom/client';
 
-ReactDOM.render(
-  <React.StrictMode>
-      <h1>Hello world</h1>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import 'bootstrap/dist/css/bootstrap.css'
+import './index.css';
+
+import reportWebVitals from './reportWebVitals';
+import CountersList from "./components/countersList";
+
+const rootContainer = document.getElementById('root')
+const root = ReactDOMClient.createRoot(rootContainer);
+
+root.render(<main className="container"><CountersList/></main>)
 
 reportWebVitals();
