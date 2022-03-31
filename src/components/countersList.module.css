@@ -1,6 +1,7 @@
 .counterListContainer {
     padding: 3em 0;
-    background-color: #F7F5F2;
+    height: 100vh;
+    background-color: #f8f8f8;
     color: #6e6e92;
 }
 
@@ -19,11 +20,13 @@
 }
 
 .counterListItem {
-    padding: 0.25em 0;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
 }
 
 .counterListItem:hover {
     background-color: #dee7eb;
+    font-weight: bold;
 
     color: black;
 }

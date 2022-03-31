@@ -34,8 +34,8 @@ const CountersList = () => {
 
   return (
     <div className={styles.counterListContainer}>
-      <ul className={`${styles.counterList} ${styles.paddingLeftRight2}`}>
-        {counters.map(counter => <li key={counter.id} className={styles.counterListItem}>
+      <ul className={`${styles.counterList}`}>
+        {counters.map(counter => <li key={counter.id} className={`${styles.counterListItem} ${styles.paddingLeftRight2}`}>
           <Counter {...counter}
                    onIncrement={handleIncrement}
                    onDecrement={handleDecrement}/>
