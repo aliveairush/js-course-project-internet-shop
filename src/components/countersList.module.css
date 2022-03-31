@@ -1,0 +1,29 @@
+.counterListContainer {
+    padding: 3em 0;
+    background-color: #F7F5F2;
+    color: #6e6e92;
+}
+
+.paddingLeftRight2 {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.marginLeftRight2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.counterList {
+    margin-bottom: 2rem;
+}
+
+.counterListItem {
+    padding: 0.25em 0;
+}
+
+.counterListItem:hover {
+    background-color: #dee7eb;
+
+    color: black;
+}
