@@ -10,7 +10,7 @@ const Counter = (props) => {
     {props.value ? <Badge value={props.value}/> : <Badge value="empty" color="warning" />}
     <button onClick={() => props.onIncrement(props.id)} className="btn btn-primary">+</button>
     <button onClick={() => props.onDecrement(props.id)} className="btn btn-primary">-</button>
-    <button className="btn btn-danger" >Delete</button>
+    <button onClick={() => props.onDelete(props.id)} className="btn btn-danger" >Delete</button>
 </div>)
 }
 

@@ -31,17 +31,22 @@ const CountersList = () => {
     }
   }
 
+  const handleDelete = (counterId) => setCounters(counters.filter(counter => counter.id !== counterId));
+
 
   return (
     <div className={styles.counterListContainer}>
       <ul className={`${styles.counterList}`}>
-        {counters.map(counter => <li key={counter.id} className={`${styles.counterListItem} ${styles.paddingLeftRight2}`}>
+        {counters.map(counter => <li key={counter.id}
+                                     className={`${styles.counterListItem} ${styles.paddingLeftRight2}`}>
           <Counter {...counter}
                    onIncrement={handleIncrement}
-                   onDecrement={handleDecrement}/>
+                   onDecrement={handleDecrement}
+                   onDelete={handleDelete}/>
         </li>)}
       </ul>
-      <button className={`btn btn-primary ${styles.marginLeftRight2}`} onClick={()=> setCounters(initialState)}>Сброс</button>
+      <button className={`btn btn-primary ${styles.marginLeftRight2}`} onClick={() => setCounters(initialState)}>Сброс
+      </button>
     </div>
   );
 }
