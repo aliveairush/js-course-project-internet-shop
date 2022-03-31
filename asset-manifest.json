@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/js-course-project-internet-shop/static/css/main.8781bb34.css",
+    "main.js": "/js-course-project-internet-shop/static/js/main.3f6fe7b4.js",
+    "static/js/787.ccf4216e.chunk.js": "/js-course-project-internet-shop/static/js/787.ccf4216e.chunk.js",
+    "index.html": "/js-course-project-internet-shop/index.html",
+    "main.8781bb34.css.map": "/js-course-project-internet-shop/static/css/main.8781bb34.css.map",
+    "main.3f6fe7b4.js.map": "/js-course-project-internet-shop/static/js/main.3f6fe7b4.js.map",
+    "787.ccf4216e.chunk.js.map": "/js-course-project-internet-shop/static/js/787.ccf4216e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8781bb34.css",
+    "static/js/main.3f6fe7b4.js"
+  ]
+}
